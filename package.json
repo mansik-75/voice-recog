@@ -1,0 +1,35 @@
+{
+  "name": "voice-recog",
+  "version": "1.0.0",
+  "description": "It is a framework for adding voice control to a web application.",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-search-index": "node bin/build-search-index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansik-75/voice-recog.git"
+  },
+  "author": "Mansur Zakirov",
+  "license": "MIT",
+  "keywords": ["voice", "voice control", "voice recognition", "speech recognition", "web application"],
+  "dependencies": {
+    "commander": "^14.0.0",
+    "glob": "^11.0.2",
+    "jszip": "^3.10.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mansik-75/voice-recog/issues"
+  },
+  "homepage": "https://github.com/mansik-75/voice-recog#readme"
+}

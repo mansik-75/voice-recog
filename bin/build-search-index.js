@@ -1,7 +1,9 @@
+#!/usr/bin/env node
+
 import fs from 'fs';
 import path from 'path';
 import * as commander  from 'commander';
-import { TFIDF } from './tf-idf.js';
+import { TFIDF } from '../src/tf-idf.js';
 
 /**
  * Рекурсивно читает все файлы в директории
